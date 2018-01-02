@@ -2303,7 +2303,7 @@ hr {
   </head>
   <body>
     <span id="badge">
-      <img src="../images/logo_aikido.png" height="50px" alt="OpenShift Container Platform logo" />
+      <img src="../extension/images/logo_aikido.png" height="50px" alt="OpenShift Container Platform logo" />
     </span>
     <div class="container">
       <div class="row">
@@ -2322,7 +2322,7 @@ hr {
           {{ end }}
         </div>
         <div class="col-sm-7 col-md-6 col-lg-5 login">
-          <form class="form-horizontal" role="form" action="/login" method="POST">
+          <form class="form-horizontal" role="form" action="{{ .Action }}" method="POST">
             <input type="hidden" name="{{ .Names.Then }}" value="{{ .Values.Then }}">
             <input type="hidden" name="{{ .Names.CSRF }}" value="{{ .Values.CSRF }}">
             <div class="form-group">
