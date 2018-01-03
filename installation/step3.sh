@@ -55,6 +55,7 @@ ssh node2.example.com "lvs"
 yum -y install atomic-openshift-utils
 #•	Write the inventory file
 export OSE_VERSION=3.6
+
 cat << EOF > /etc/ansible/hosts
 [OSEv3:children]
 masters
