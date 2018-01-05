@@ -37,7 +37,7 @@
                     -->
                     <bean
                         class="org.apache.ignite.spi.discovery.tcp.ipfinder.kubernetes.TcpDiscoveryKubernetesIpFinder">
-						<property name="masterUrl" value="http://gridgain-ent-1.playground.svc.cluster.local:47500" />
+						<property name="masterUrl" value="https://gridgain-ent-1.playground.svc.cluster.local:47500" />
 						<property name="serviceName" value="gridgain-ent-1" />
 						<property name="namespace" value="playground" />
 					</bean>
