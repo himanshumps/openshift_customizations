@@ -13,7 +13,8 @@ for node in infranode1.example.com \
 		systemctl start docker"
 done
 #1.	Verify that the Docker service has started on all nodes:
-sleep 30
+echo "Sleeping for a minute"
+sleep 60
 for node in   master1.example.com \
 	infranode1.example.com \
 	node1.example.com \
