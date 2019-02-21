@@ -20,7 +20,7 @@ window.OPENSHIFT_CONSTANTS.SERVICE_CATALOG_CATEGORIES.splice(
 );
 
 angular
-  .module('aboutPageExtension1', ['openshiftConsole'])
+  .module('aboutPageExtension', ['openshiftConsole'])
   .config(function($routeProvider) {
     $routeProvider
       .when('/test', {
@@ -30,4 +30,4 @@ angular
     }
   );
 
-hawtioPluginLoader.addModule('aboutPageExtension1');
+hawtioPluginLoader.addModule('aboutPageExtension');
