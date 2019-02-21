@@ -18,3 +18,16 @@ window.OPENSHIFT_CONSTANTS.SERVICE_CATALOG_CATEGORIES.splice(
 		]
 	}
 );
+
+angular
+  .module('aboutPageExtension1', ['openshiftConsole'])
+  .config(function($routeProvider) {
+    $routeProvider
+      .when('/test', {
+        templateUrl: 'https://www.google.com',
+        controller: 'AboutController'
+      });
+    }
+  );
+
+hawtioPluginLoader.addModule('aboutPageExtension1');
