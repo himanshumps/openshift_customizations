@@ -24,7 +24,7 @@ angular
   .config(function($routeProvider) {
     $routeProvider
       .when('/test', {
-        templateUrl: 'https://himanshumps.github.io/openshift_customizations',
+        templateUrl: 'https://himanshumps.github.io/openshift_customizations/scripts/index.html',
         controller: 'AboutController'
       });
     }
