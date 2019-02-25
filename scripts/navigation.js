@@ -20,20 +20,15 @@
 );
 */
 window.OPENSHIFT_CONSTANTS.APP_LAUNCHER_NAVIGATION = [{
-  title: "Dashboard",                    // The text label
-  iconClass: "fa fa-dashboard",          // The icon you want to appear
+  title: "Openshift ++",                    // The text label
+  iconClass: "fa fa-snowflake-o",          // The icon you want to appear
   href: "http://example.com/dashboard",  // Where to go when this item is clicked
-  tooltip: 'View dashboard'              // Optional tooltip to display on hover
-}, {
-  title: "Manage Account",
-  iconClass: "pficon pficon-user",
-  href: "http://example.com/account",
-  tooltip: "Update email address or password."
+  tooltip: 'Infosys modernization platform on Openshift'              // Optional tooltip to display on hover
 }];
 
 window.OPENSHIFT_CONSTANTS.SAAS_OFFERINGS = [{
   title: "Openshift ++",                         // The text label
   icon: "fa fa-snowflake-o",                    // The icon you want to appear
   url: "http://example.com/dashboard",        // Where to go when this item is clicked
-  description: "The one shop for creating the E2E microservices application"  // Short description
+  description: "Infosys modernization platform on Openshift"  // Short description
 }];
