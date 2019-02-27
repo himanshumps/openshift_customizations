@@ -22,13 +22,13 @@
 window.OPENSHIFT_CONSTANTS.APP_LAUNCHER_NAVIGATION = [{
   title: "Openshift ++",                    // The text label
   iconClass: "fa fa-snowflake-o",          // The icon you want to appear
-  href: "http://example.com/dashboard",  // Where to go when this item is clicked
+  href: "https://web.52.172.12.252.nip.io/",  // Where to go when this item is clicked
   tooltip: 'Infosys modernization platform on Openshift'              // Optional tooltip to display on hover
 }];
 
 window.OPENSHIFT_CONSTANTS.SAAS_OFFERINGS = [{
   title: "Openshift ++",                         // The text label
   icon: "fa fa-snowflake-o",                    // The icon you want to appear
-  url: "http://example.com/dashboard",        // Where to go when this item is clicked
+  url: "https://web.52.172.12.252.nip.io/",        // Where to go when this item is clicked
   description: "Infosys modernization platform on Openshift"  // Short description
 }];
