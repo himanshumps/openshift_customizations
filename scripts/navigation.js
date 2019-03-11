@@ -29,6 +29,6 @@ window.OPENSHIFT_CONSTANTS.APP_LAUNCHER_NAVIGATION = [{
 window.OPENSHIFT_CONSTANTS.SAAS_OFFERINGS = [{
   title: "Openshift ++",                         // The text label
   icon: "fa fa-snowflake-o",                    // The icon you want to appear
-  url: "http://web.52.172.12.252.nip.io/login",        // Where to go when this item is clicked
-  description: "Infosys modernization platform on Openshift"  // Short description
+  url: "http://web-oss-infosysaccelerator.52.172.12.252.nip.io",        // Where to go when this item is clicked
+  description: "Infosys Application Transformation Platform"  // Short description
 }];
