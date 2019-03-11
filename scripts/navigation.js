@@ -22,8 +22,8 @@
 window.OPENSHIFT_CONSTANTS.APP_LAUNCHER_NAVIGATION = [{
   title: "Openshift ++",                    // The text label
   iconClass: "fa fa-snowflake-o",          // The icon you want to appear
-  href: "http://web.52.172.12.252.nip.io/login",  // Where to go when this item is clicked
-  tooltip: 'Infosys modernization platform on Openshift'              // Optional tooltip to display on hover
+  href: "http://web-oss-infosysaccelerator.52.172.12.252.nip.io",  // Where to go when this item is clicked
+  tooltip: 'Infosys Application Transformation Platform'              // Optional tooltip to display on hover
 }];
 
 window.OPENSHIFT_CONSTANTS.SAAS_OFFERINGS = [{
